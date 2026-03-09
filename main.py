@@ -7,8 +7,7 @@ m = 0
 Ax_start = 3
 Ay = 2
 
-img = cv2.imread('image/Screenshot 2026-03-09 174740.png')
-print(img.shape)
+img = cv2.imread('image/Screenshot 2026-03-09 204813.png')
 
 for y in range(17):
 
@@ -32,7 +31,9 @@ for y in range(17):
                 map_data += s + "g"
 
             elif 35 <= r <= 45 and 100 <= g <= 115 and 245 <= b <= 255:
-                map_data += "Py"
+                print("enemy Color")
+                p = input() 
+                map_data += f"P{p}"
 
             elif 35 <= r <= 48 and 95 <= g <= 108 and 40 <= b <= 55:
                 map_data += s + "gd"
@@ -52,22 +53,28 @@ for y in range(17):
             elif 165 <= r <= 180 and 50 <= g <= 65 and 50 <= b <= 65:
                 map_data += s + "r"
             elif 250 <= r <= 255 and 0 <= g <= 5 and 0 <= b <= 5: 
-                print("Color")
+                print("enemy Color")
                 p = input() 
                 print("Which Enemy")
                 l = input() 
                 map_data += f"E{p}{l}" 
                 print(map_data)
-            elif 0 <= r <= 5 and 0 <= g <= 5 and 0 <= b <= 5: 
-                print("Color")
+            elif 250 <= r <= 255 and 250 <= g <= 255 and 250 <= b <= 255:
+                print("waipoint Color")
                 p = input() 
-                print("Which Enemy ")
+                print("waiPoint of Which Enemy ")
                 l = input() 
                 print("WaiPointCount start At 0")
                 i = input()
                 
-                map_data += f"w{p}{l}{i}" 
+                map_data += f"W{p}{l}{i}" 
                 print(map_data)
+            elif 0 <= r <= 5 and 0 <= g <= 5 and 0 <= b <= 5:
+                map_data += "#d" 
+            elif 250 <= r <= 2555 and 0 <= g <= 5 and 0 <= b <= 255:
+                print("powerOrb Color")
+                p = input() 
+                map_data += f"B{p}"
             else:
                 print("Unknown color:", pixel_color)
 
