@@ -97,6 +97,9 @@ for y in range(17):
                 map_data += f"B{p}"
             else:
                 print("Unknown color:", pixel_color)
+                print("Warning Unknown color arbort conversion")
+                input("Press Enter to exit...")
+                sys.exit()
 
         Ax += 32
     map_data += ",\n"
