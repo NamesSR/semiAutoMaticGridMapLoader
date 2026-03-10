@@ -11,7 +11,7 @@ to use the tool the map image MUST be 987 x 543 can be resised but i do not know
   
 * 4 open it and you have the map data
   
-  ![gif](Image/howToUseTool.gif)
+  # ![gif](Image/howToUseTool.gif)
 
  ## exemple 1
 ![](image/Tutorial_Level_Design%20(2).jpg)
