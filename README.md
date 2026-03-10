@@ -10,7 +10,7 @@ to use the tool the map image MUST be 987 x 543 can be resised but i do not know
 * 3 when its finished enter and a txt file is made at the directory of the image 
   
 * 4 open it and you have the map data
-# ![gif](Image/howToUseTool.gif) 
+  # ![gif](image/howToUseTool.gif) 
   
 
  ## exemple 1
@@ -53,4 +53,3 @@ to use the tool the map image MUST be 987 x 543 can be resised but i do not know
 #d#bTyTyTyTyTyTyTyyTyTyTyTyTyTyTyTyTyyTyTyyTyTyTyTyyTyTyTyTyTy#b#d,
 #d#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#b#d,
 #d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d#d,
-# ![gif](Image/howToUseTool.gif)
